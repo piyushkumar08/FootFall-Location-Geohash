@@ -318,4 +318,4 @@ SELECT fs.device_id
       ,fs.country
       ,fs.Geohash
 FROM [DataDB].[dbo].[footfallsSample] fs ,[DataDB].[dbo].[location] loc
-WHERE fs.Geohash = loc.Geohash
+WHERE fs.Geohash = loc.Geohash 
